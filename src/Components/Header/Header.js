@@ -9,11 +9,12 @@ const Header = () => {
    <nav className="nav">
     <a href="/shop">Shop</a>
     <a href="/order">Order</a>
-    <a href="review">Review</a>
-    <a href="/manage">Manage</a>
-    <a href="inventory">Inventory</a>
+    <a href="/review">Review</a>
+    {/* <a href="manage/">Manage</a> */}
+    <a href="/inventory">Inventory</a>
+    <a href="/login">Login</a>
    </nav>
-   
+
   </div>
  );
 };
